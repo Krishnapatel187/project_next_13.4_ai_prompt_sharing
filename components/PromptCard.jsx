@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { usePathname, useRouter } from 'next/navigation';
 import React, { useState } from 'react'
 
-const PromptCard = ({ key, post, handleTagClick, handleEdit, handleDelete }) => {
+const PromptCard = ({  post, handleTagClick, handleEdit, handleDelete }) => {
 
   const [copied, setCopied] = useState('');
   const router = useRouter();
